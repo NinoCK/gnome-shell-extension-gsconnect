@@ -2,6 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-2.0-or-later
 
+import * as applauncher from './applauncher.js';
 import * as battery from './battery.js';
 import * as clipboard from './clipboard.js';
 import * as connectivity_report from './connectivity_report.js';
@@ -20,6 +21,7 @@ import * as systemvolume from './systemvolume.js';
 import * as telephony from './telephony.js';
 
 export default {
+    applauncher,
     battery,
     clipboard,
     connectivity_report,

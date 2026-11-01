@@ -7,6 +7,7 @@ plugin_tests_metadir = join_paths(installed_tests_metadir, 'plugins')
 
 # Plugin Suites
 plugin_tests = [
+  'ApplauncherPlugin',
   'BatteryPlugin',
   'ClipboardPlugin',
   'ContactsPlugin',
